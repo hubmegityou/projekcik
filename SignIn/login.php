@@ -1,0 +1,36 @@
+<?php
+
+
+ $dbhost = 'localhost';     
+  $dblogin = 'root';
+  $dbpass = '';
+  $dbselect = 'projekt';
+  
+  
+  $con=mysqli_connect($dbhost,$dblogin,$dbpass);
+  $db= mysqli_select_db( $con, $dbselect) or die("error");
+
+
+$login=$_POST['Email'];
+$pass= $_POST['Password'];
+
+if (isset ($login) &&  isset ($pass)) {
+    
+    
+  $pas = mysqli_query($con, "SELECT Password FROM user WHERE Email = '$login'") or die(mysql_error($pas));
+  $row = mysqli_fetch_assoc($pas);
+ 
+
+    if ($pass == $row['Password']) {    
+ 
+            setcookie('username', $login, time()+60*60*24*365, '/');
+            setcookie('password', $pass, time()+60*60*24*365, '/');
+            
+            header("Location: ../index.php");
+    }
+
+
+           echo "cos sie zwali³o";
+
+        }
+?>

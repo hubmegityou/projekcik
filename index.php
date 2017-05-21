@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+
+
+<?php
+$log="false";
+if(isset($_COOKIE["username"]))
+{
+    $log= "true";
+    echo 'Your username: '.$_COOKIE['username'].'';
+    echo '<br/>';           
+}
+?>
+
+
+
+
+
+
 <html lang="en">
 <head>
   <title></title>
@@ -47,7 +64,12 @@
 						<li><a href="#!/page_Schedule"><span></span><strong>Schedule</strong></a></li>
 						<li><a href="#!/page_Prices"><span></span><strong>Prices</strong></a></li>
 						<li><a href="#!/page_Contact"><span></span><strong>Contact Us</strong></a></li>
-                                                <li><a href="SignIn/index.html"><span></span><strong>Sign In</strong></a></li>
+                                                
+                                                <?php
+                                                if ($log=="true"){
+                                                    echo '<li><a href="SignIn/LogOut.php"><span></span><strong>Log out</strong></a></li>';}
+                                                    else {echo '<li><a href="SignIn/index.php"><span></span><strong>Sign In</strong></a></li>';}
+                                                 ?>
 					</ul>
 				</nav>
 			</header><div class="ic">More Website Templates @ TemplateMonster.com - September12 2011!</div>
@@ -321,17 +343,9 @@
 							<li><a href="images/bg_img3.jpg">3</a></li>
 						</ul>
 					</div>
-					<ul id="icons">
-						<li><a href="#" class="normaltip" title="Facebook"><img src="images/icon1.jpg" alt=""></a></li>
-						<li><a href="#" class="normaltip" title="Twitter"><img src="images/icon2.jpg" alt=""></a></li>
-						<li><a href="#" class="normaltip" title="Linkedin"><img src="images/icon3.jpg" alt=""></a></li>
-						<li><a href="#" class="normaltip" title="Delicious"><img src="images/icon4.jpg" alt=""></a></li>
-					</ul>
+					
 				</div>
-				<div class="col_2">
-					<span>Hatha Yoga</span> Copyright 2011<br>
-					Website Template by <a rel="nofollow" href="http://www.templatemonster.com/" target="_blank">TemplateMonster.com</a> | <a rel="nofollow" href="http://www.html5xcss3.com/" target="_blank">html5xcss3.com</a>
-				</div>
+				
 				<!-- {%FOOTER_LINK} -->
 			</footer>
 			<!--footer end-->
@@ -341,6 +355,7 @@
 $(window).load(function() {	
 	$('.spinner').fadeOut();
 	$('body').css({overflow:'inherit'})
+        
 })
 </script>
 </body>

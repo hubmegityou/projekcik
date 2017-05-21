@@ -46,7 +46,7 @@
             <label>
               <span class="req">Email Address *</span>
             </label>
-            <input type="text" required autocomplete="off" name="Email"/>
+            <input type="email" required autocomplete="off" name="Email"/>
           </div>
           
           <div class="field-wrap">
@@ -65,25 +65,25 @@
         <div id="login">   
           <h1>Welcome Back!</h1>
           
-          <form action="/" method="post">
+          <form action="login.php" method="post">
           
             <div class="field-wrap">
             <label>
               <span class="req">Email Address *</span>
             </label>
-            <input type="email" required autocomplete="off"/>
+            <input type="email" required autocomplete="off" name="Email"/>
           </div>
           
           <div class="field-wrap">
             <label>
               <span class="req">Password *</span>
             </label>
-            <input type="password" required autocomplete="off"/>
+            <input type="password" required autocomplete="off" name="Password"/>
           </div>
           
           <p class="forgot"><a href="#">Forgot Password?</a></p>
           
-          <button class="button button-block"/>Log In</button>
+          <button type="submit" class="button button-block"/>Log In</button>
           
           </form>
 
