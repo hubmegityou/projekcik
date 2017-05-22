@@ -56,17 +56,17 @@ if(isset($_COOKIE["username"]))
 		<div class="box">
 			<!--header -->
 			<header>
-				<h1><a href="index.html" id="logo"></a></h1>
+				<h1><a href="index.php" id="logo"></a></h1>
 				<nav class="menu">
 					<ul id="menu">
 						<li><a href="#!/page_About"><span></span><strong>About</strong></a></li>
 						<li><a href="#!/page_Teachers"><span></span><strong>Our Teachers</strong></a></li>
-						<li><a href="#!/page_Schedule"><span></span><strong>Schedule</strong></a></li>
 						<li><a href="#!/page_Prices"><span></span><strong>Prices</strong></a></li>
 						<li><a href="#!/page_Contact"><span></span><strong>Contact Us</strong></a></li>
                                                 
                                                 <?php
                                                 if ($log=="true"){
+                                                    echo '<li><a href="#!/page_Schedule"><span></span><strong>Schedule</strong></a></li>';
                                                     echo '<li><a href="SignIn/LogOut.php"><span></span><strong>Log out</strong></a></li>';}
                                                     else {echo '<li><a href="SignIn/index.php"><span></span><strong>Sign In</strong></a></li>';}
                                                  ?>

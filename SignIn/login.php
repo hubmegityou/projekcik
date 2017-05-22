@@ -1,7 +1,7 @@
 <?php
 
 
- $dbhost = 'localhost';     
+  $dbhost = 'localhost';     
   $dblogin = 'root';
   $dbpass = '';
   $dbselect = 'projekt';
