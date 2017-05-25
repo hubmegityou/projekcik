@@ -104,20 +104,24 @@ if(isset($_COOKIE["admin_name"]))
 								<div class="wrapper">
 									<div class="col1">
 										<h2>Yoga Philosophy</h2>
-										<p class="quot">Body is your temple. Keep it pure and clean for the soul to reside in. <img src="images/quot2.png" alt=""></p>
-										<p class="pad_bot1">Feel free to start your project using this <a href="http://blog.templatemonster.com/2011/09/12/free-website-template-yoga-center/">Hatha Yoga Template</a> that goes with two packages! Tell everyone about yoga lifestyle and yoga philosophy.</p>
-										<p class="color1">Do your practice and reach harmony!</p>
+										<p class="quot">Exercises are like prose, whereas yoga is the poetry of movements.<img src="images/quot2.png" alt=""></p>
+										<p class="pad_bot1">The art and science of yoga is dedicated to creating union between body, mind and spirit. It is about creating balance so as to live in peace, good health and harmony with the greater whole.</p>
 									</div>
 									<div class="col1 pad_left1">
 										<h2>About Us</h2>
 										<div class="scroll">
 											<ul>
 												<li>
-													<p><strong>Hatha Yoga</strong> is one of <a href="http://blog.templatemonster.com/free-website-templates/" target="_blank">free website templates</a> created by TemplateMonster.<br>
-													com team. This website template is optimized for 1024X768 resolution. It is also XHTML & CSS valid. This website template has several supages.</p>
+													<p><strong>The Masters of Yoga</strong> is a yoga centre for the whole family, where all ages and abilities work together to achieve optimum health.</p>
 												</li>
 												<li>
-													<p>PSD source files are available for free for the registered members of Templates.com. The basic package (without PSD source) is available for anyone without registration.</p>
+													<p>We're excited about sharing our diverse yoga classes with you and we look forward to helping you discover and develop your own yoga practice.</p>
+												</li>
+                                                                                                <li>
+													<p>Our timetables and classes are at times to suit you. We believe in variety, health & fitness and your emotional and spiritual wellbeing.</p>
+												</li>
+                                                                                                <li>
+													<p>Prepare yourself for a healthier, lighter, more flexible, more energetic and relaxed version of you!</p>
 												</li>
 											</ul>
 										</div>
@@ -137,19 +141,19 @@ if(isset($_COOKIE["admin_name"]))
 									<div class="wrapper pad_bot2">
 										<figure class="left marg_right1"><img src="images/page2_img1.jpg" alt=""></figure>
 										<p class="pad_bot2"><strong>Helen Williams</strong></p>
-										<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+										<p class="pad_bot1">Helen’s dynamic classes are imbued with her warmth and kindness and are suitable to all.</p>
 										<p class="pad_bot2"><a href="#!/page_More" class="link1">Read More</a></p>
 									</div>
 									<div class="wrapper pad_bot2">
 										<figure class="left marg_right1"><img src="images/page2_img2.jpg" alt=""></figure>
 										<p class="pad_bot2"><strong>Jessy Hamper</strong></p>
-										<p class="pad_bot1">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorreprehenderit in voluptate velit esse cillum dolore.</p>
+										<p class="pad_bot1">Jessy’s advanced physical practice is a wonder to behold, while her commitment to the spiritual path of yoga is an inspiration! </p>
 										<p class="pad_bot2"><a href="#!/page_More" class="link1">Read More</a></p>
 									</div>
 									<div class="wrapper pad_bot2">
 										<figure class="left marg_right1"><img src="images/page2_img3.jpg" alt=""></figure>
-										<p class="pad_bot2"><strong>Chester Hamper</strong></p>
-										<p class="pad_bot1">Cupidatat non proident sunt culpa officia deserunt mollit anim idst laborum. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+										<p class="pad_bot2"><strong>Katie Hamper</strong></p>
+										<p class="pad_bot1">Katie went to her first Astanga class eleven years ago and hasn’t stopped since.</p>
 										<p class="pad_bot2"><a href="#!/page_More" class="link1">Read More</a></p>
 									</div>
 								</div>
@@ -179,11 +183,11 @@ if(isset($_COOKIE["admin_name"]))
 												<tr>
 													<td class="bg"><strong>9:00</strong></td>
 													<td>Helen Williams</td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 													<td>Helen Williams</td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 													<td>Helen Williams</td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 												</tr>
 												<tr>
 													<td class="bg2"><strong>10:00</strong></td>
@@ -196,21 +200,21 @@ if(isset($_COOKIE["admin_name"]))
 												</tr>
 												<tr>
 													<td class="bg"><strong>12:00</strong></td>
-													<td>Chester Hamper</td>
+													<td>Katie Hamper</td>
 													<td class="bg">Jessy Hamper</td>
-													<td>Chester Hamper</td>
+													<td>Katie Hamper</td>
 													<td class="bg">Jessy Hamper</td>
-													<td>Chester Hamper</td>
+													<td>Katie Hamper</td>
 													<td class="bg">Jessy Hamper</td>
 												</tr>
 												<tr>
 													<td class="bg2"><strong>14:00</strong></td>
 													<td class="bg">Helen Williams</td>
-													<td class="bg2">Chester Hamper</td>
+													<td class="bg2">Katie Hamper</td>
 													<td class="bg">Helen Williams</td>
-													<td class="bg2">Chester Hamper</td>
+													<td class="bg2">Katie Hamper</td>
 													<td class="bg">Helen Williams</td>
-													<td class="bg2">Chester Hamper</td>
+													<td class="bg2">Katie Hamper</td>
 												</tr>
 												<tr>
 													<td class="bg"><strong>16:00</strong></td>
@@ -223,21 +227,21 @@ if(isset($_COOKIE["admin_name"]))
 												</tr>
 												<tr>
 													<td class="bg2"><strong>17:00</strong></td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 													<td class="bg2">Jessy Hamper</td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 													<td class="bg2">Jessy Hamper</td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 													<td class="bg2">Jessy Hamper</td>
 												</tr>
 												<tr>
 													<td class="bg"><strong>18:30</strong></td>
 													<td>Helen Williams</td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 													<td>Helen Williams</td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 													<td>Helen Williams</td>
-													<td class="bg">Chester Hamper</td>
+													<td class="bg">Katie Hamper</td>
 												</tr>
 												<tr>
 													<td class="bg2"><strong>20:00</strong></td>
@@ -251,9 +255,7 @@ if(isset($_COOKIE["admin_name"]))
 											</tbody>
 										</table>
 									</div>
-									<p><strong>Online Sign-Ins:</strong><br>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-								</div>
+																	</div>
 							</div>
 						</div>
 					</li>
@@ -294,20 +296,17 @@ if(isset($_COOKIE["admin_name"]))
 								<div class="wrapper">
 									<div class="col1">
 										<h2>Our Address</h2>
-										<p><strong>8901 Marmora, <br>
-												Glasgow, D04 89GR</strong></p>
-										<p class="address">Freephone:<br>
-												Telephone:<br>
-												FAX:<br>
+										<p><strong>2 Kite Yard <br>
+                                                                                                Cambridge Road <br>
+												London SW11 4TA</strong></p>
+										<p class="address">Telephone:<br>
 												E-mail:</p>
-										<p class="pad_bot1">+1 800 559 6580<br>
-												+1 959 603 6035<br>
-												+1 504 889 9898<br>
-												<a href="mailto:" class="color1">mail@demolink.org</a></p>
+										<p class="pad_bot1">0207 978 7995<br>
+												<a href="mailto:" class="color1">masters@yoga.co.uk</a></p>
 									</div>
 									<div class="col1 pad_left1">
-										<h2>Miscellaneous</h2>
-										<p class="pad_bot1">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+										<h2>Careers</h2>
+										<p class="pad_bot1">We are looking for experienced and passionate yoga teachers. If you are interested in joining our team please send your CV to <a href="mailto:" class="color1">masters@yoga.co.uk</a>.</p>
 									</div>
 								</div>
 								<div class="wrapper">

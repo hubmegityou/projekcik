@@ -21,12 +21,12 @@ body, html {height:100%}
 #bgSlider  img {left:auto !important;right:0 !important}
 .pagination {position:relative;padding:34px 0 0px 48px;float:left}
 .pagination li {float:left;padding-right:4px;font-size:18px;color:#434343;line-height:1.2em;letter-spacing:-1px}
-.pagination a {display:inline-block;background:url(../images/buttons.png) right 5px no-repeat;width:20px;height:25px;text-align:center;color:#08afee;text-decoration:none;text-align:center}
+.pagination a {display:inline-block;background:url(../images/buttons.png) right 5px no-repeat;width:20px;height:25px;text-align:center;color:#30316A#30316A;text-decoration:none;text-align:center}
 .pagination a:hover, .pagination .current a {background-position:left;color:#fff;text-decoration:none}
 /* ============================= main layout ====================== */
 a {color:#4d4d4d;text-decoration:underline;outline:none}
 a:hover {text-decoration:none}
-h2 {font-size:36px;color:#08afee;line-height:1.2em;padding:17px 0 16px 0;letter-spacing:-2px}
+h2 {font-size:36px;color:#30316A;line-height:1.2em;padding:17px 0 16px 0;letter-spacing:-2px}
 p {padding-bottom:25px}
 /* ============================= header ====================== */
 header {width:270px;float:left}
@@ -51,8 +51,8 @@ header {width:270px;float:left}
 #page_Prices .pad_bot1 {padding-bottom:20px}
 .quot {background:url(../images/quot1.png) 0 8px no-repeat;padding-left:18px;font-size:17px;line-height:20px;color:#7f7f7f;font-style:italic;text-shadow:1px 0 #a3a3a3, -1px 0 #e8e8e8;padding-top:3px;padding-bottom:12px}
 .quot img {display:inline-block;padding-top:4px}
-.color1 {color:#08afee}
-.link1 {color:#08afee;text-decoration:none}
+.color1 {color:#30316A}
+.link1 {color:#30316A;text-decoration:none}
 .link1:hover {text-decoration:underline} 
 .scroll {height:145px !important;margin-bottom:32px;overflow:hidden}
 .prev, .next {float:left;width:31px;height:31px;margin-right:9px;position:relative;background:url(../images/markers.gif) 0 0 no-repeat}
@@ -75,9 +75,9 @@ header {width:270px;float:left}
 .col1 {width:250px;float:left}
 /* ============================= footer ====================== */
 footer  {position:relative;line-height:20px}
-footer a {color:#08afee;text-decoration:none}
+footer a {color:#30316A;text-decoration:none}
 footer a:hover {text-decoration:underline}
-footer span {color:#08afee}
+footer span {color:#30316A}
 #icons {padding:9px 0 0 89px}
 #icons li {float:left;padding-right:7px}
 /* Tooltips */
