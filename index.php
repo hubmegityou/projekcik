@@ -79,9 +79,17 @@ if(isset($_COOKIE["admin_name"]))
                                                 if ($log=="true"||$admin== "true"){
                                                     echo '<li><a href="#!/page_Schedule"><span></span><strong>Schedule</strong></a></li>';
                                                     echo '<li><a href="#!/page_My_Account"><span></span><strong>My account</strong></a></li>';
+                                                    
+                                                    if ($admin=="true"){
+                                                     echo '<li><a href="#!/page_users"><span></span><strong>Users</strong></a></li>';
+                                                     }
+                                                    
                                                     echo '<li><a href="SignIn/LogOut.php"><span></span><strong>Log out</strong></a></li>';}
                                                     else {echo '<li><a href="SignIn/index.php"><span></span><strong>Sign In</strong></a></li>';}
+                                                    
+                                                    
                                                  ?>
+                                                
 					</ul>
 				</nav>
 			</header><div class="ic">More Website Templates @ TemplateMonster.com - September12 2011!</div>
@@ -338,6 +346,48 @@ if(isset($_COOKIE["admin_name"]))
 						</div>
 					</li>
                                         
+                                        
+                                        <li id="page_users">
+						<div class="box1">
+							<div class="inner">
+								<a href="#" class="close" data-type="close"><span></span></a>
+								<div class="wrapper">
+									<h2>USERS</h2>
+                                                                        <p class="pad_bot1"><br><br><br>
+                                                                            <?php
+                                                                            
+                                                                            
+                                                                             $dbhost = 'localhost';     
+                                                                             $dblogin = 'root';
+                                                                             $dbpass = '';
+                                                                             $dbselect = 'projekt';
+  
+  
+                                                                              $con=mysqli_connect($dbhost,$dblogin,$dbpass);
+                                                                              $db= mysqli_select_db( $con, $dbselect) or die("error");
+                                                                             
+                                                                              $user = mysqli_query($con, "SELECT * FROM user") or die(mysql_error($user));
+                                                                              echo "<table cellpadding=\"2\" border=10 cellspacing=\"10\">"; 
+                                                                              while($r = mysqli_fetch_assoc($user)) { 
+                                                                              echo "<tr>"; 
+                                                                              echo "<td>".$r['FirstName']."</td>"; 
+                                                                              echo "<td>".$r['LastName']."</td>"; 
+                                                                              echo "<td>".$r['Email']."</td>";
+                                                                              echo "<td> 
+                                                                              <a href=\">DELETE</a>  
+                                                                              </td>"; 
+                                                                              echo "</tr>"; 
+                                                                              } 
+                                                                              echo "</table>"; 
+                                                                            
+                                                                            ?> 
+                                                                            
+                                                                            </p>
+									
+								</div>
+							</div>
+						</div>
+					</li>
                                         
                                         
                                         
