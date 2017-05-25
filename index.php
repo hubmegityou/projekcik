@@ -3,12 +3,23 @@
 
 <?php
 $log="false";
+$admin="false";
 if(isset($_COOKIE["username"]))
 {
     $log= "true";
-    echo 'Your username: '.$_COOKIE['username'].'';
+    echo 'Hello  '.$_COOKIE['firstname'].'';
     echo '<br/>';           
 }
+
+if(isset($_COOKIE["admin_name"]))
+{
+    $admin= "true";
+    echo 'Hello, my master '.$_COOKIE['firstname'].'';
+    echo '<br/>';           
+}
+
+
+
 ?>
 
 
@@ -65,7 +76,7 @@ if(isset($_COOKIE["username"]))
 						<li><a href="#!/page_Contact"><span></span><strong>Contact Us</strong></a></li>
                                                 
                                                 <?php
-                                                if ($log=="true"){
+                                                if ($log=="true"||$admin== "true"){
                                                     echo '<li><a href="#!/page_Schedule"><span></span><strong>Schedule</strong></a></li>';
                                                     echo '<li><a href="#!/page_My_Account"><span></span><strong>My account</strong></a></li>';
                                                     echo '<li><a href="SignIn/LogOut.php"><span></span><strong>Log out</strong></a></li>';}
