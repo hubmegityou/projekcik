@@ -17,7 +17,7 @@ $pass= $_POST['Password'];
 if (isset ($login) &&  isset ($pass)) {
     
     
-  $pas = mysqli_query($con, "SELECT Password FROM user WHERE Email = '$login'") or die(mysql_error($pas));
+  $pas = mysqli_query($con, "SELECT * FROM user WHERE Email = '$login'") or die(mysql_error($pas));
   $row = mysqli_fetch_assoc($pas);
  
 
@@ -25,6 +25,9 @@ if (isset ($login) &&  isset ($pass)) {
  
             setcookie('username', $login, time()+60*60*24*365, '/');
             setcookie('password', $pass, time()+60*60*24*365, '/');
+            setcookie('firstname', $row['FirstName'],time()+60*60*24*365, '/' );
+            setcookie('lastname', $row['LastName'],time()+60*60*24*365, '/' );
+            setcookie('ID', $row['ID_logowanie'],time()+60*60*24*365, '/' );
             
             header("Location: ../index.php");
     }

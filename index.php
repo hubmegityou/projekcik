@@ -67,6 +67,7 @@ if(isset($_COOKIE["username"]))
                                                 <?php
                                                 if ($log=="true"){
                                                     echo '<li><a href="#!/page_Schedule"><span></span><strong>Schedule</strong></a></li>';
+                                                    echo '<li><a href="#!/page_My_Account"><span></span><strong>My account</strong></a></li>';
                                                     echo '<li><a href="SignIn/LogOut.php"><span></span><strong>Log out</strong></a></li>';}
                                                     else {echo '<li><a href="SignIn/index.php"><span></span><strong>Sign In</strong></a></li>';}
                                                  ?>
@@ -305,6 +306,32 @@ if(isset($_COOKIE["username"]))
 							</div>
 						</div>
 					</li>
+                                        
+                                        
+                                        <li id="page_My_Account">
+						<div class="box1">
+							<div class="inner">
+								<a href="#" class="close" data-type="close"><span></span></a>
+								<div class="wrapper">
+									<h2>My account</h2>
+                                                                        <p class="pad_bot1"><br><br><br>
+                                                                            NAME:  <?php echo $_COOKIE['firstname'];   ?>  <br>
+                                                                            LAST NAME:  <?php echo $_COOKIE['lastname'];  ?> <br>
+                                                                            E-MAIL:    <?php echo $_COOKIE['username'];  ?> <br><br><br>
+                                                                            <a href="SignIn/DeleteAccount.php"><span></span><strong>Delete my account</strong></a>
+                                                                            
+                                                                            </p>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
 					<li id="page_More">
 						<div class="box1">
 							<div class="inner">
