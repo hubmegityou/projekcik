@@ -22,7 +22,7 @@ body, html {height:100%}
 .pagination {position:relative;padding:34px 0 0px 48px;float:left}
 .pagination li {float:left;padding-right:4px;font-size:18px;color:#434343;line-height:1.2em;letter-spacing:-1px}
 .pagination a {display:inline-block;background:url(../images/buttons.png) right 5px no-repeat;width:20px;height:25px;text-align:center;color:#30316A#30316A;text-decoration:none;text-align:center}
-.pagination a:hover, .pagination .current a {background-position:left;color:#fff;text-decoration:none}
+.pagination a:hover, .pagination .current a {background-position:top;background-size: contain;color:#fff;text-decoration:none}
 /* ============================= main layout ====================== */
 a {color:#4d4d4d;text-decoration:underline;outline:none}
 a:hover {text-decoration:none}

@@ -139,22 +139,22 @@ if(isset($_COOKIE["admin_name"]))
 								<div class="wrapper">
 									<h2>Our Staff</h2>
 									<div class="wrapper pad_bot2">
-										<figure class="left marg_right1"><img src="images/page2_img1.jpg" alt=""></figure>
+										<figure class="left marg_right1"><img src="images/helen2.jpg" alt=""></figure>
 										<p class="pad_bot2"><strong>Helen Williams</strong></p>
 										<p class="pad_bot1">Helen’s dynamic classes are imbued with her warmth and kindness and are suitable to all.</p>
-										<p class="pad_bot2"><a href="#!/page_More" class="link1">Read More</a></p>
+										<p class="pad_bot2"><a href="#!/page_Helen" class="link1">Read More</a></p>
 									</div>
 									<div class="wrapper pad_bot2">
-										<figure class="left marg_right1"><img src="images/page2_img2.jpg" alt=""></figure>
-										<p class="pad_bot2"><strong>Jessy Hamper</strong></p>
-										<p class="pad_bot1">Jessy’s advanced physical practice is a wonder to behold, while her commitment to the spiritual path of yoga is an inspiration! </p>
-										<p class="pad_bot2"><a href="#!/page_More" class="link1">Read More</a></p>
+										<figure class="left marg_right1"><img src="images/susan2.jpg" alt=""></figure>
+										<p class="pad_bot2"><strong>Susan Arrington</strong></p>
+										<p class="pad_bot1">Susan’s advanced physical practice is a wonder to behold, while her commitment to the spiritual path of yoga is an inspiration! </p>
+										<p class="pad_bot2"><a href="#!/page_Susan" class="link1">Read More</a></p>
 									</div>
 									<div class="wrapper pad_bot2">
-										<figure class="left marg_right1"><img src="images/page2_img3.jpg" alt=""></figure>
-										<p class="pad_bot2"><strong>Katie Hamper</strong></p>
+										<figure class="left marg_right1"><img src="images/katie2.jpg" alt=""></figure>
+										<p class="pad_bot2"><strong>Katie Barnet</strong></p>
 										<p class="pad_bot1">Katie went to her first Astanga class eleven years ago and hasn’t stopped since.</p>
-										<p class="pad_bot2"><a href="#!/page_More" class="link1">Read More</a></p>
+										<p class="pad_bot2"><a href="#!/page_Katie" class="link1">Read More</a></p>
 									</div>
 								</div>
 							</div>
@@ -183,73 +183,73 @@ if(isset($_COOKIE["admin_name"]))
 												<tr>
 													<td class="bg"><strong>9:00</strong></td>
 													<td>Helen Williams</td>
-													<td class="bg">Katie Hamper</td>
+													<td class="bg">Katie Barnet</td>
 													<td>Helen Williams</td>
-													<td class="bg">Katie Hamper</td>
+													<td class="bg">Katie Barnet</td>
 													<td>Helen Williams</td>
-													<td class="bg">Katie Hamper</td>
+													<td class="bg">Katie Barnet</td>
 												</tr>
 												<tr>
 													<td class="bg2"><strong>10:00</strong></td>
-													<td class="bg">Jessy Hamper</td>
+													<td class="bg">Susan Arrington</td>
 													<td class="bg2">Helen Williams</td>
-													<td class="bg">Jessy Hamper</td>
+													<td class="bg">Susan Arrington</td>
 													<td class="bg2">Helen Williams</td>
-													<td class="bg">Jessy Hamper</td>
+													<td class="bg">Susan Arrington</td>
 													<td class="bg2">Helen Williams</td>
 												</tr>
 												<tr>
 													<td class="bg"><strong>12:00</strong></td>
-													<td>Katie Hamper</td>
-													<td class="bg">Jessy Hamper</td>
-													<td>Katie Hamper</td>
-													<td class="bg">Jessy Hamper</td>
-													<td>Katie Hamper</td>
-													<td class="bg">Jessy Hamper</td>
+													<td>Katie Barnet</td>
+													<td class="bg">Susan Arrington</td>
+													<td>Katie Barnet</td>
+													<td class="bg">Susan Arrington</td>
+													<td>Katie Barnet</td>
+													<td class="bg">Susan Arrington</td>
 												</tr>
 												<tr>
 													<td class="bg2"><strong>14:00</strong></td>
 													<td class="bg">Helen Williams</td>
-													<td class="bg2">Katie Hamper</td>
+													<td class="bg2">Katie Barnet</td>
 													<td class="bg">Helen Williams</td>
-													<td class="bg2">Katie Hamper</td>
+													<td class="bg2">Katie Barnet</td>
 													<td class="bg">Helen Williams</td>
-													<td class="bg2">Katie Hamper</td>
+													<td class="bg2">Katie Barnet</td>
 												</tr>
 												<tr>
 													<td class="bg"><strong>16:00</strong></td>
-													<td>Jessy Hamper</td>
+													<td>Susan Arrington</td>
 													<td class="bg">Helen Williams</td>
-													<td>Jessy Hamper</td>
+													<td>Susan Arrington</td>
 													<td class="bg">Helen Williams</td>
-													<td>Jessy Hamper</td>
+													<td>Susan Arrington</td>
 													<td class="bg">Helen Williams</td>
 												</tr>
 												<tr>
 													<td class="bg2"><strong>17:00</strong></td>
-													<td class="bg">Katie Hamper</td>
-													<td class="bg2">Jessy Hamper</td>
-													<td class="bg">Katie Hamper</td>
-													<td class="bg2">Jessy Hamper</td>
-													<td class="bg">Katie Hamper</td>
-													<td class="bg2">Jessy Hamper</td>
+													<td class="bg">Katie Barnet</td>
+													<td class="bg2">Susan Arrington</td>
+													<td class="bg">Katie Barnet</td>
+													<td class="bg2">Susan Arrington</td>
+													<td class="bg">Katie Barnet</td>
+													<td class="bg2">Susan Arrington</td>
 												</tr>
 												<tr>
 													<td class="bg"><strong>18:30</strong></td>
 													<td>Helen Williams</td>
-													<td class="bg">Katie Hamper</td>
+													<td class="bg">Katie Barnet</td>
 													<td>Helen Williams</td>
-													<td class="bg">Katie Hamper</td>
+													<td class="bg">Katie Barnet</td>
 													<td>Helen Williams</td>
-													<td class="bg">Katie Hamper</td>
+													<td class="bg">Katie Barnet</td>
 												</tr>
 												<tr>
 													<td class="bg2"><strong>20:00</strong></td>
-													<td class="bg">Jessy Hamper</td>
+													<td class="bg">Susan Arrington</td>
 													<td class="bg2">Helen Williams</td>
-													<td class="bg">Jessy Hamper</td>
+													<td class="bg">Susan Arrington</td>
 													<td class="bg2">Helen Williams</td>
-													<td class="bg">Jessy Hamper</td>
+													<td class="bg">Susan Arrington</td>
 													<td class="bg2">Helen Williams</td>
 												</tr>
 											</tbody>
@@ -266,23 +266,23 @@ if(isset($_COOKIE["admin_name"]))
 								<div class="wrapper">
 									<h2>Our Prices</h2>
 									<p class="pad_bot1"><strong>Introductory Offer:</strong><br>
-											One Month Unlimited <span class="color1">$39</span><br>
+											One Month Unlimited <span class="color1">£39</span><br>
 											New clients only. One time purchase. Must purchase with-in first week of coming to studio.</p>
 									<p class="pad_bot1">
 											<strong>Auto-Pay Membership: Unlimited Yoga</strong><br>
-											<span class="color1">$89</span> per month - with a minimum 6 month commitment <br>
-											<span class="color1">$79</span> per month - student/senior pricing - with a 6 month minimum commitment </p>
+											<span class="color1">£89</span> per month - with a minimum 6 month commitment <br>
+											<span class="color1">£79</span> per month - student/senior pricing - with a 6 month minimum commitment </p>
 									<p class="pad_bot1">
 											<strong>Regular Pricing:</strong><br>
-											Drop In - <span class="color1">$17</span> ** New Rate** <br>
-											One Month Unlimited - <span class="color1">$135</span><br>
-											One Year Unlimited - <span class="color1">$1000</span><br>
-											5 Class Package - <span class="color1">$70</span></p>
+											Drop In - <span class="color1">£17</span> ** New Rate** <br>
+											One Month Unlimited - <span class="color1">£135</span><br>
+											One Year Unlimited - <span class="color1">£1000</span><br>
+											5 Class Package - <span class="color1">£70</span></p>
 									<p class="pad_bot1">
 											<strong>Student/Senior Pricing:</strong><br>
-											Drop In - <span class="color1">$13</span> **New Rate** <br>
-											One Month Unlimited - <span class="color1">$110</span><br>
-											One Year Unlimited - <span class="color1">$750</span></p>
+											Drop In - <span class="color1">£13</span> **New Rate** <br>
+											One Month Unlimited - <span class="color1">£110</span><br>
+											One Year Unlimited - <span class="color1">£750</span></p>
 									<p>
 											Please note - student pricing is for full time students. Must present valid ID. </p>
 								</div>
@@ -392,21 +392,50 @@ if(isset($_COOKIE["admin_name"]))
                                         
                                         
                                         
-					<li id="page_More">
+					<li id="page_Helen">
 						<div class="box1">
 							<div class="inner">
 								<a href="#" class="close" data-type="close"><span></span></a>
 								<div class="wrapper">
-									<h2>Read more</h2>
-									<p><strong>Lorem ipsum dolor sit amet, consectetur</strong> adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorreprehenderit in voluptate velit esse cillum dolore. Duis aute irure dolorreprehenderit in voluptate.</p>
+									<h2>Helen Williams</h2>
+									<p>Helen started practicing yoga in her bedroom at the age of 17 and completely fell in love with the practice from the get go! In 2012 she completed her teacher training at The Himalaya Yoga Valley Centre in India under the direction of Yogacharya Lalit Kumar. Lalit ignited her passion for the Ashtanga Yoga system, which has been her daily practice ever since. She continues to practice here in London with Hamish Hendry and is committed to making annual trips back to India, to develop her understanding of yoga further under the guidance of R.Sharath Jois, at the Sri K. Pattabhi Jois Ashtanga Yoga Institute in Mysore.</p>
 									<div class="wrapper pad_bot1">
-										<figure class="left marg_right1"><img src="images/page2_img1.jpg" alt=""></figure>
-										<p class="pad_bot1"><strong>Ullamco laboris nisi</strong> ut aliquip ex ea commodo consequat. Duis aute irure dolorreprehenderit in voluptate velit esse cillum dolore.</p>
-										<p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut.</p>
-									</div>
-									<p class="pad_bot1"><strong>At vero eos et accusamus et iusto odio dignissimos</strong> ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolorreprehenderit in voluptate velit esse cillum dolore. Duis aute irure dolorreprehenderit in voluptate.</p>
+										<figure class="left marg_right1"><img src="images/helen.jpg" alt=""></figure>
+                                                                        </div>
+									<p class="pad_bot1"></p>
+									
 								</div>
+							</div>
+						</div>
+					</li>
+                                        <li id="page_Susan">
+						<div class="box1">
+							<div class="inner">
+								<a href="#" class="close" data-type="close"><span></span></a>
+								<div class="wrapper">
+									<h2>Susan Arrington</h2>
+									<p>Susan’s teaching is gentle and kind, encouraging and nurturing. With a smile and love for teaching, she seeks to instil a sense of lightness and ease in students, whilst helping them to connect with their bodies and minds. She creates sequences that suit the energy and level of each class, whilst challenging and inspiring students to honour their abilities and presence on and off the mat. She believes that in both life and teaching one should be grounded but light, dedicated, mindful, aware and understanding of personal limitations that are inherent in each individual.</p>
+									<div class="wrapper pad_bot1">
+										<figure class="left marg_right1"><img src="images/susan.jpg" alt=""></figure>
+                                                                        </div>
+									<p class="pad_bot1"></p>
+                                                                </div>
+							</div>
+						</div>
+					</li>
+                                        <li id="page_Katie">
+						<div class="box1">
+							<div class="inner">
+								<a href="#" class="close" data-type="close"><span></span></a>
+								<div class="wrapper">
+									<h2>Katie Barnet</h2>
+									<p>Katie went to her first Astanga class eleven years ago and hasn’t stopped since. Practicing daily with her teacher, Hamish Hendry, Katie also frequently travels to Mysore, India, to practice with Sharath Jois.<br>
+                                                                        As a teacher, Katie’s intention is to share these aspects of yoga with her students. She provides a space that allows them to welcome whatever arises during their practice whilst feeling safe and understood. Her style is traditional, but in a way that is safe and fun.</p>
+									<div class="wrapper pad_bot1">
+										<figure class="left marg_right1"><img src="images/katie.jpg" alt=""></figure>
+                                                                        </div>
+									<p class="pad_bot1"></p>
+                                                                </div>
 							</div>
 						</div>
 					</li>
