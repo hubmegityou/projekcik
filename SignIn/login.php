@@ -33,10 +33,9 @@ if (isset ($login) &&  isset ($pass)) {
             setcookie('ID', $row['ID_logowanie'],time()+60*60*24*365, '/' );
             
             header("Location: ../index.php");
-    }
+    } else {header("Location: index.php");}
 
 
-           echo "THE CREDENTIALS ARE INCORRECT";
         
         
     } else {
@@ -55,10 +54,8 @@ if (isset ($login) &&  isset ($pass)) {
             setcookie('ID', $row['ID_logowanie'],time()+60*60*24*365, '/' );
             
             header("Location: ../index.php");
-    }
+    } else {header("Location: index.php");}
 
-
-           echo "THE CREDENTAILS ARE INCORRECT";
 
 }}
 ?>
