@@ -81,7 +81,7 @@
             <input type="password" required autocomplete="off" name="Password"/>
           </div>
           
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
+          
           
           <button type="submit" class="button button-block"/>Log In</button>
           
