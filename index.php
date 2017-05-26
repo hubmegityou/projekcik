@@ -350,7 +350,7 @@ if(isset($_COOKIE["admin_name"]))
                                         
                                         
                                         <li id="page_users">
-						<div class="box1" >
+						<div class="box2" >
 							<div class="inner">
 								<a href="#" class="close" data-type="close"><span></span></a>
 								<div class="wrapper">
