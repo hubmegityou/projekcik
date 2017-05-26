@@ -335,7 +335,10 @@ if(isset($_COOKIE["admin_name"]))
                                                                         <p class="pad_bot1"><br><br><br>
                                                                             NAME:  <?php echo $_COOKIE['firstname'];   ?>  <br>
                                                                             LAST NAME:  <?php echo $_COOKIE['lastname'];  ?> <br>
-                                                                            E-MAIL:    <?php echo $_COOKIE['username'];  ?> <br><br><br>
+                                                                            E-MAIL:    <?php 
+                                                                            if($admin=="true"){echo $_COOKIE['admin_name'];}
+                                                                            else {
+                                                                            echo $_COOKIE['username'];}  ?> <br><br><br>
                                                                             <a href="SignIn/DeleteAccount.php"><span></span><strong>Delete my account</strong></a>
                                                                             
                                                                             </p>
@@ -347,12 +350,31 @@ if(isset($_COOKIE["admin_name"]))
                                         
                                         
                                         <li id="page_users">
-						<div class="box1">
+						<div class="box1" >
 							<div class="inner">
 								<a href="#" class="close" data-type="close"><span></span></a>
 								<div class="wrapper">
 									<h2>USERS</h2>
-                                                                        <p class="pad_bot1"><br><br><br>
+                                                                        <p class="pad_bot1"><br>
+                                                                            
+                                                                            
+                                                                            
+                                                                             <form action="SignIn/deleteUser.php" method="post">
+                                                                                  <label>
+                                                                                <span class="req">delete user number:   </span>
+                                                                                    </label>
+                                                                            <input type="text" required autocomplete="off" name="id_num" />
+                                                                            
+                                                                            <button type="submit" class="button button-block" />DELETE</button>
+                                                                             </form>
+                                                                        
+                                                                        <br>
+                                                                        <br>
+                                                                        
+                      
+                                                                            
+                                                                            
+                                                                            
                                                                             <?php
                                                                             
                                                                             
@@ -366,16 +388,19 @@ if(isset($_COOKIE["admin_name"]))
                                                                               $db= mysqli_select_db( $con, $dbselect) or die("error");
                                                                              
                                                                               $user = mysqli_query($con, "SELECT * FROM user") or die(mysql_error($user));
-                                                                              echo "<table cellpadding=\"2\" border=10 cellspacing=\"10\">"; 
+                                                                              echo ' <table cellpadding=\"2\" border=10 cellspacing=\"20\">'; 
                                                                               while($r = mysqli_fetch_assoc($user)) { 
                                                                               echo "<tr>"; 
-                                                                              echo "<td>".$r['FirstName']."</td>"; 
-                                                                              echo "<td>".$r['LastName']."</td>"; 
-                                                                              echo "<td>".$r['Email']."</td>";
-                                                                              echo "<td> 
-                                                                              <a href=\">DELETE</a>  
-                                                                              </td>"; 
+                                                                              echo '<td>'.$r['ID_logowanie'].'</td>';
+                    
+                                                                              echo "<td>". $r['FirstName']."</td>"; 
+                                                                         
+                                                                              echo "<td>". $r['LastName']."</td>"; 
+                                                                       
+                                                                              echo "<td>". $r['Email']."</td>";
+                                                                             
                                                                               echo "</tr>"; 
+                                                                              
                                                                               } 
                                                                               echo "</table>"; 
                                                                             
