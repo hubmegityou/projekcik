@@ -399,9 +399,9 @@ if(isset($_COOKIE["admin_name"]))
 											</thead> <tbody>'; 
                                                                               while($r = mysqli_fetch_assoc($user)) { 
                                                                               echo "<tr>"; 
-                                                                              echo '<td>'.$r['ID_logowanie'].'</td>';
+                                                                              echo '<td class="bg">'.$r['ID_logowanie'].'</td>';
                     
-                                                                              echo "<td>". $r['FirstName']."</td>"; 
+                                                                              echo "<td >". $r['FirstName']."</td>"; 
                                                                          
                                                                               echo "<td>". $r['LastName']."</td>"; 
                                                                        
