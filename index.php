@@ -14,7 +14,7 @@ if(isset($_COOKIE["username"]))
 if(isset($_COOKIE["admin_name"]))
 {
     $admin= "true";
-    echo 'Hello, my master '.$_COOKIE['firstname'].'';
+    echo 'Hello, my master';
     echo '<br/>';           
 }
 
