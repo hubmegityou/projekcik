@@ -335,7 +335,10 @@ if(isset($_COOKIE["admin_name"]))
                                                                         <p class="pad_bot1"><br><br><br>
                                                                             NAME:  <?php echo $_COOKIE['firstname'];   ?>  <br>
                                                                             LAST NAME:  <?php echo $_COOKIE['lastname'];  ?> <br>
-                                                                            E-MAIL:    <?php echo $_COOKIE['username'];  ?> <br><br><br>
+                                                                            E-MAIL:    <?php 
+                                                                            if($admin=="true"){echo $_COOKIE['admin_name'];}
+                                                                            else {
+                                                                            echo $_COOKIE['username'];}  ?> <br><br><br>
                                                                             <a href="SignIn/DeleteAccount.php"><span></span><strong>Delete my account</strong></a>
                                                                             
                                                                             </p>
@@ -347,7 +350,7 @@ if(isset($_COOKIE["admin_name"]))
                                         
                                         
                                         <li id="page_users">
-						<div class="box1">
+						<div class="box1" >
 							<div class="inner">
 								<a href="#" class="close" data-type="close"><span></span></a>
 								<div class="wrapper">
