@@ -369,11 +369,12 @@ if(isset($_COOKIE["admin_name"]))
                                                                              </form>
                                                                         
                                                                         <br>
-                                                                        <br>
+                                                                        <br>   
                                                                         
-                      
-                                                                            
-                                                                            
+                                                                        
+                                                                        
+                                                                        
+                                                                        
                                                                             
                                                                             <?php
                                                                             
@@ -388,7 +389,14 @@ if(isset($_COOKIE["admin_name"]))
                                                                               $db= mysqli_select_db( $con, $dbselect) or die("error");
                                                                              
                                                                               $user = mysqli_query($con, "SELECT * FROM user") or die(mysql_error($user));
-                                                                              echo ' <table cellpadding=\"2\" border=10 cellspacing=\"20\">'; 
+                                                                              echo ' <div class="table"> <table> <thead>
+												<tr>
+													<th><strong>ID</strong></th>
+													<th class="bg"><strong> First Name</strong></th>
+													<th><strong>Last Name</strong></th>
+													<th class="bg"><strong>E-mail</strong></th>
+												</tr>
+											</thead> <tbody>'; 
                                                                               while($r = mysqli_fetch_assoc($user)) { 
                                                                               echo "<tr>"; 
                                                                               echo '<td>'.$r['ID_logowanie'].'</td>';
@@ -402,7 +410,7 @@ if(isset($_COOKIE["admin_name"]))
                                                                               echo "</tr>"; 
                                                                               
                                                                               } 
-                                                                              echo "</table>"; 
+                                                                              echo "</tbody> </table></div>"; 
                                                                             
                                                                             ?> 
                                                                             
