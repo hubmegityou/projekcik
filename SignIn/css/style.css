@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background:  url(../images/bg_img2.jpg);
+  background:  url(../images/bg_img.jpg);
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -113,8 +113,8 @@ input, textarea {
   padding: 5px 10px;
   background: none;
   background-image: none;
-  border: 1px solid #a0b3b0;
-  color: #179B77;
+  border: 1px solid #30316A;
+  color: #30316A;
   border-radius: 0;
   -webkit-transition: border-color .25s ease, box-shadow .25s ease;
   transition: border-color .25s ease, box-shadow .25s ease;
@@ -125,7 +125,7 @@ input:focus, textarea:focus {
 }
 
 textarea {
-  border: 2px solid #a0b3b0;
+  border: 2px solid #30316A;
   resize: vertical;
 }
 

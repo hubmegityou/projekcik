@@ -310,16 +310,7 @@ if(isset($_COOKIE["admin_name"]))
 									</div>
 								</div>
 								<div class="wrapper">
-									<h2>Contact Form</h2>
-									<form id="ContactForm">
-									<div>
-										<div class="wrapper"><input class="input" type="text" value="Name"  onblur="if(this.value=='') this.value='Name'" onFocus="if(this.value =='Name' ) this.value=''" ></div>
-										<div class="wrapper"><input class="input" type="text" value="Email"  onblur="if(this.value=='') this.value='Email'" onFocus="if(this.value =='Email' ) this.value=''" ></div>
-										<div class="textarea_box"><textarea cols="1" rows="1" onBlur="if(this.value=='') this.value='Message'" onFocus="if(this.value =='Message' ) this.value=''"  >Message</textarea></div>
-										<a href="#" class="color1" onClick="document.getElementById('ContactForm').submit()">Send</a>
-										<a href="#" class="color1" onClick="document.getElementById('ContactForm').reset()">Clear</a>
-									</div>
-									</form>
+									
 								</div>
 							</div>
 						</div>

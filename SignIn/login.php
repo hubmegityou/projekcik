@@ -36,7 +36,7 @@ if (isset ($login) &&  isset ($pass)) {
     }
 
 
-           echo "cos sie zwali³o";
+           echo "THE CREDENTIALS ARE INCORRECT";
         
         
     } else {
@@ -58,7 +58,7 @@ if (isset ($login) &&  isset ($pass)) {
     }
 
 
-           echo "cos sie zwali³o";
+           echo "THE CREDENTAILS ARE INCORRECT";
 
 }}
 ?>
